@@ -55,5 +55,5 @@ checkExpiredVouchers.start()
 
 /* Start Listening service */
 app.listen(5000, () => {
-	console.log(`Server is running at PORT http://localhost:${PORT}`);
+	console.log(`Server is running at PORT http://localhost:${5000}`);
 });
